@@ -1,0 +1,30 @@
+/* A tag selector styles every element with this tag. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* An ID selector styles the page heading. */
+#page-title {
+    color: #245642;
+}
+
+/* Padding, margin, and border are box model properties. */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+a {
+    color: #245642;
+}
+
+a:hover {
+    color: #a33b20;
+}
